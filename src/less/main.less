@@ -1,0 +1,84 @@
+
+//=================================MAIN.LESS======================================//
+
+@primary: #ef6c00;
+@secondary: #283593;
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+//=================================MOBILE-FIRST======================================//
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: 'Overpass', sans-serif;
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
+}
+h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
+}
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #4c4b4b;
+}
+//=================================TABLET======================================//
+
+
+@media (min-width: 768px) {
+    h1, h2{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}
+
+//=================================DESKTOP======================================//
+
+
+@media (min-width: 1024px) {
+    h1{
+        font-size: 50px;
+    }
+}
